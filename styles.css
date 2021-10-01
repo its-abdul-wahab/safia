@@ -1,0 +1,133 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.container{
+    background-image:url(ab.jpg);
+    width: 1350px;
+    height: 600px;
+    position:relative;
+}
+.div1{
+    width: 260px;
+    height: 140px;
+    border: 1px solid red;
+    position:absolute;
+    left:40%;
+    top: 45%;
+}
+.heading{
+    color:black;
+    padding-left:29px;
+    padding-top: 15px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.heading3{
+    color:black;
+    padding-left:29px;
+    padding-top: 8px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.navbar ul{
+    position: absolute;    
+    list-style:inline;
+     background:red;
+    padding-top: 10px;
+    text-align: center;
+     width: 25%;
+     height:40px;
+      bottom: 0;
+     overflow: hidden;
+    margin-bottom: 40px;
+    margin-left: 41%;
+
+}
+.navbar li{
+    display:inline-block;
+
+}
+.navbar a {
+
+    color: lightgray;
+    width: 100px;
+    padding: 22px;
+    text-decoration: none;
+
+}
+.navbar a:hover {
+    background:gray ;
+}
+.image1{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+
+
+}
+.image2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+
+}
+.image3{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+
+}
+.image4 {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+
+}
+.container1 {
+    background: red;
+    width:70%;
+    height:550px;
+    margin-top:30px;
+    margin-left: 210px;
+}
+.heading1 {
+    text-align: center;
+    padding-top: 20px;
+}
+input[type=text],textarea {
+    width:80%;
+    padding:10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-left:30px;
+
+
+}
+label{
+    padding: 12px 12px 12px 40px;
+    display: block;
+
+}
+input[type=button] {
+    resize: vertical;
+    width:80%;
+    background-color: gray;
+    margin-top: 25px;
+    padding:10px;
+    margin-left:30px;
+    cursor: pointer;
+
+
+}
+input[type=button]:hover {
+    background-color: lightgreen;
+
+}
+
